@@ -93,7 +93,7 @@ const config = {
       items: [
         {
           type: 'docSidebar', // Ha külön oldalsávot használsz az API-hoz
-          sidebarId: 'myApiSidebar', // Az API oldalsávjának ID-ja a sidebars.js-ből
+          sidebarId: 'petstoreApiSidebar', // Az API oldalsávjának ID-ja a sidebars.js-ből
           position: 'left',
           label: 'Petstore API',
           

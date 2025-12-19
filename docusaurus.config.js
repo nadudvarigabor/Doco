@@ -19,8 +19,8 @@ const config = {
   url: 'https://nadudvarigabor.github.io',
   baseUrl: 'doco',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'nadudvarigabor',
+  projectName: '/Doco/',
 
   onBrokenLinks: 'throw',
 
@@ -91,6 +91,12 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          type: 'docSidebar', // Ha külön oldalsávot használsz az API-hoz
+          sidebarId: 'myApiSidebar', // Az API oldalsávjának ID-ja a sidebars.js-ből
+          label: 'Petstore API',
+          position: 'left',
+         },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

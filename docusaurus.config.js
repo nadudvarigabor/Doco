@@ -94,8 +94,9 @@ const config = {
         {
           type: 'docSidebar', // Ha külön oldalsávot használsz az API-hoz
           sidebarId: 'myApiSidebar', // Az API oldalsávjának ID-ja a sidebars.js-ből
-          label: 'Petstore API',
           position: 'left',
+          label: 'Petstore API',
+          
          },
         {
           type: 'docSidebar',

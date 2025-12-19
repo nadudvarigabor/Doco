@@ -18,10 +18,10 @@ const config = {
 
   url: 'https://nadudvarigabor.github.io',
   baseUrl: '/Doco/',
-
   organizationName: 'nadudvarigabor',
   projectName: 'Doco',
-
+  trailingSlash: false,
+  
   onBrokenLinks: 'throw',
 
   i18n: {
